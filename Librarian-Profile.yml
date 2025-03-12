@@ -1,4 +1,3 @@
-msg: Hi!!! Welcome to Libraian Profile.
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/librarydb
