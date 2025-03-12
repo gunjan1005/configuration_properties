@@ -1,3 +1,4 @@
+msg: Welcome to Admin Server.
 server:
   port: 9999
 spring:
