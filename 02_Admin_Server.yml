@@ -1,0 +1,25 @@
+server:
+  port: 9999
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/librarydb
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+  boot:
+    admin:
+      client:
+        url: http://localhost:9999/
+  cloud:
+    config:
+      import-check:
+        enabled: false
+jpa:
+  show-sql: true
+  hibernate:
+    ddl-auto: update
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
